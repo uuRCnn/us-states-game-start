@@ -15,6 +15,8 @@ while len(guessed_states) < 50:
 
     answer_state = screen.textinput(title="Guess the State", prompt="What's another state's name").title()
 
+
+    # Tahmin edemediklerini listeliyor.
     if answer_state == "Exit".title():
         missing_states = []
         for state in all_states:
